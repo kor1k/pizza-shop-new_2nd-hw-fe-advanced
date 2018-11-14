@@ -3,3 +3,121 @@
     list-style: none;
 }
 
+.container1200 {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.nav {
+    background-color: #373c3f;
+    height: 100px;
+    display: flex;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+}
+
+.nav-item {
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: Montserrat, sans-serif;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    margin: 30px;
+}
+
+.nav-item:hover {
+    color: #acd9ad;
+}
+
+.nav-item-logo {
+    margin-top: .5rem;
+    margin-left: 21rem;
+    background-image: url("../img/navigation-logo-1200.png");
+    width: 104px;
+    height: 83px;
+}
+
+.header {
+    background-image: url("../img/header-fon-1200.png");
+    height: 649px;
+    margin-bottom: 6px;
+}
+
+.header-title {
+    padding: 35px 0 50px 35px;
+    font-family: Lato, sans-serif;
+    color: #ffffff;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 64px;
+    text-align: left;
+}
+
+.header-sub-title {
+    padding: 0 0 0 35px;
+    font-family: Lato, sans-serif;
+    color: #a6d6e0;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 64px;
+    text-align: left;
+}
+
+.header-options {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-first-option {
+    display: flex;
+    justify-content: center;
+    background-image: url("../img/pizza-dev-fon-1200.png");
+    font-family: Lato, sans-serif;
+    color: #ffffff;
+    font-size: 43px;
+    font-weight: 700;
+    line-height: 44px;
+    text-align: center;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+}
+
+.header-second-option {
+    display: flex;
+    justify-content: center;
+    background-image: url("../img/ua-ux-fon-1200.png");
+    font-family: Lato, sans-serif;
+    color: #ffffff;
+    font-size: 43px;
+    font-weight: 700;
+    line-height: 44px;
+    text-align: center;
+    align-items: center;
+    width: 400px;
+    height: 400px;;
+
+}
+
+.header-third-option {
+    display: flex;
+    justify-content: center;
+    background-image: url("../img/desserts-fon-1200.png");
+    font-family: Lato, sans-serif;
+    color: #ffffff;
+    font-size: 43px;
+    font-weight: 700;
+    line-height: 44px;
+    text-align: center;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+}
