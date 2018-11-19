@@ -168,7 +168,7 @@
         text-align: center;
         font-family: Lato, sans-serif;
         display: flex;
-        padding-left: 20px;
+        /*padding-left: 20px;*/
     }
 
     .right-side-menu-title {
@@ -243,7 +243,7 @@
         text-align: justify;
         padding-top: 16px;
     }
-    
+
     .footer {
         margin-top: 130px;
         height: 97px;
@@ -263,16 +263,27 @@
         display: flex;
         font-family: Montserrat, sans-serif;
         color: #ffffff;
-        font-size: 18px;/* Приближение из-за подстановки шрифтов */
+        font-size: 18px; /* Приближение из-за подстановки шрифтов */
         font-weight: 400;
-        line-height: 26px;/* Приближение из-за подстановки шрифтов */
+        line-height: 26px; /* Приближение из-за подстановки шрифтов */
         text-align: center;
         align-items: center;
         margin-left: 25rem;
     }
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 320px) {
+    .menus {
+        margin: 12px;
+    }
+
+    .dish-info-line {
+        margin-bottom: 8px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
     .container320 {
         width: 320px;
         margin: 0 auto;
@@ -281,7 +292,7 @@
     .nav {
         display: none;
     }
-    
+
     .nav-320 {
         background-color: rgb(63, 64, 67);
         height: 40px;
@@ -352,5 +363,124 @@
         background-image: url("../img/desserts-fon-320.png");
     }
 
+    .under-header {
+        margin: 13px;
+    }
+
+    .section-under-header-options {
+        margin-top: 10px;
+        text-transform: uppercase;
+        font-family: Lato, sans-serif;
+        color: #3f4043;
+        font-size: 18px; /* Приближение из-за подстановки шрифтов */
+        font-weight: 400;
+        text-align: left;
+
+    }
+
+    .sub-section-under-header-options {
+        text-transform: uppercase;
+        font-family: Lato, sans-serif;
+        color: #cbcdce;
+        font-size: 10.03px; /* Приближение из-за подстановки шрифтов */
+        font-weight: 400;
+        text-align: left;
+        margin: 10px;
+    }
+
+    .left-side-menu-title {
+        height: 40px;
+        color: #acd9ad;
+        background-color: #3f4043;
+        font-size: 20px;
+        text-transform: uppercase;
+        align-items: center;
+        text-align: center;
+        font-family: Lato, sans-serif;
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo-sneg-1200, .logo-wine-1200, .logo-coffee-1200, .logo-sneg-1200, .logo-beer-1200 {
+        display: none;
+    }
+
+    .left-side-menu-sub-title {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        font-family: Lato, sans-serif;
+        color: #3f4043;
+        font-size: 15.05px; /* Приближение из-за подстановки шрифтов */
+        font-weight: 400;
+        text-align: left;
+    }
+
+    .dish-name {
+        font-family: Lato, sans-serif;
+        color: #3f4043;
+        font-size: 13.55px; /* Приближение из-за подстановки шрифтов */
+        font-weight: 400;
+        text-align: left;
+    }
+
+    .dish-price {
+        font-family: Lato, sans-serif;
+        color: #3f4043;
+        font-size: 13.55px; /* Приближение из-за подстановки шрифтов */
+        font-weight: 700;
+        text-align: right;
+    }
+
+    .dish-about {
+        font-family: Lato, sans-serif;
+        color: #3f4043;
+        font-size: 8.78px; /* Приближение из-за подстановки шрифтов */
+        font-weight: 400;
+        text-align: justify;
+        margin-bottom: 10px;
+    }
+
+    .right-side-menu-title {
+        font-family: Lato, sans-serif;
+        height: 40px;
+        color: white;
+        background-color: #acd9ad;
+        text-transform: uppercase;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer {
+        display: flex;
+        height: 55px;
+        background-color: #acd9ad;
+    }
+
+    .footer-text {
+        font-family: Montserrat, sans-serif;
+        color: #ffffff;
+        font-size: 16px; /* Приближение из-за подстановки шрифтов */
+        font-weight: 400;
+        line-height: 16px; /* Приближение из-за подстановки шрифтов */
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .right-side-menu-sub-title {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-family: Lato, sans-serif;
+        color: #3f4043;
+        font-size: 15.05px; /* Приближение из-за подстановки шрифтов */
+        font-weight: 400;
+        text-align: left;
+        text-transform: uppercase;
+    }
 
 }
