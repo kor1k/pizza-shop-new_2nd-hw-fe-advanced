@@ -11,6 +11,10 @@
         display: flex;
     }
 
+    .nav-320 {
+        display: none;
+    }
+
     .nav-items {
         display: flex;
         justify-content: start;
@@ -266,5 +270,87 @@
         align-items: center;
         margin-left: 25rem;
     }
+}
+
+@media screen and (max-width: 320px){
+    .container320 {
+        width: 320px;
+        margin: 0 auto;
+    }
+
+    .nav {
+        display: none;
+    }
+    
+    .nav-320 {
+        background-color: rgb(63, 64, 67);
+        height: 40px;
+    }
+
+    .title-nav-320 {
+        font-family: Montserrat, sans-serif;
+        color: white;
+        font-size: 15px;
+        align-items: center;
+        padding: 10px 0 0 20px;
+    }
+
+    .header {
+        background-image: url("../img/header-fon-320.png");
+        height: 173px;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-bottom: 3px;
+    }
+
+    .header-title {
+        padding: 20px;
+        font-family: Lato, sans-serif;
+        color: #ffffff;
+        font-size: 16px; /* Приближение из-за подстановки шрифтов */
+        font-weight: 700;
+        line-height: 20px; /* Приближение из-за подстановки шрифтов */
+        text-align: left;
+    }
+
+    .header-sub-title {
+        padding-left: 20px;
+        font-family: Lato, sans-serif;
+        color: #a6d6e0;
+        font-size: 14px; /* Приближение из-за подстановки шрифтов */
+        font-weight: 700;
+    }
+
+    .header-options {
+        display: flex;
+        justify-content: start;
+        flex-direction: column;
+    }
+
+    .header-first-option, .header-second-option, .header-third-option {
+        font-family: Lato, sans-serif;
+        display: flex;
+        /*justify-content: center;*/
+        padding-left: 4rem;
+        color: white;
+        font-weight: 700;
+        font-size: 25px;
+        align-items: center;
+        text-align: center;
+        height: 75px;
+    }
+
+    .header-first-option {
+        background-image: url("../img/pizza-dev-fon-320.png");
+    }
+
+    .header-second-option {
+        background-image: url("../img/ua-ux-dev-fon-320.png");
+    }
+
+    .header-third-option {
+        background-image: url("../img/desserts-fon-320.png");
+    }
+
 
 }
