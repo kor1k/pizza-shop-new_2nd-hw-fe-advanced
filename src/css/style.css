@@ -3,10 +3,6 @@
 }
 
 @media screen and (min-width: 1200px) {
-    .logo-beer-320, .logo-wine-320, .logo-coffee-320, .logo-beer-320 {
-        display: none;
-    }
-
     .container1200 {
         width: 1200px;
         margin: 0 auto;
@@ -46,6 +42,7 @@
     }
 
     .nav-item-logo {
+        cursor: pointer;
         margin-top: .5rem;
         margin-left: 21rem;
         background-image: url("../img/navigation-logo-1200.png");
@@ -259,6 +256,7 @@
     }
 
     .footer-logo {
+        cursor: pointer;
         margin-top: .5rem;
         margin-left: 1rem;
         background-image: url("../img/navigation-logo-1200.png");
@@ -278,6 +276,7 @@
         margin-left: 25rem;
     }
 }
+
 
 @media screen and (max-width: 640px) {
     .nav {
@@ -413,6 +412,10 @@
         align-items: center;
         text-align: center;
         text-transform: uppercase;
+    }
+
+    .header-options {
+        margin: -2px;
     }
 
     .left-side-menu-sub-title {
