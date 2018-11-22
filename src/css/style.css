@@ -377,6 +377,11 @@
         height: 150px;
     }
 
+
+    .under-header {
+        margin: 18px;
+    }
+
     .section-under-header-options {
         margin-top: 50px;
         font-family: Lato, sans-serif;
@@ -411,6 +416,8 @@
     }
 
     .left-side-menu-sub-title {
+        align-items: center;
+        margin-top: 40px;
         display: flex;
         justify-content: space-between;
         margin-bottom: 40px;
@@ -466,6 +473,9 @@
     }
 
     .right-side-menu-title {
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
         padding-top: 17px;
         text-transform: uppercase;
         height: 65px;
