@@ -279,6 +279,226 @@
     }
 }
 
+@media screen and (max-width: 640px) {
+    .nav {
+        display: none;
+    }
+
+    .nav-320 {
+        background-color: rgb(63, 64, 67);
+        height: 75px;
+    }
+
+    .title-nav-320 {
+        font-family: Lato, sans-serif;
+        display: flex;
+        justify-content: start;
+        color: white;
+        font-size: 24px;
+        align-items: center;
+        padding-top: 30px;
+        margin-left: 40px;
+    }
+
+    .header {
+        background-image: url("../img/header-bg-for-640.png");
+        height: 345px;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-bottom: 5px;
+    }
+
+    .header-title {
+        padding: 50px;
+        font-family: Lato, sans-serif;
+        color: #ffffff;
+        font-size: 36px; /* Приближение из-за подстановки шрифтов */
+        font-weight: 700;
+        line-height: 48px; /* Приближение из-за подстановки шрифтов */
+        text-align: left;
+    }
+
+    .header-sub-title {
+        padding-left: 20px;
+        font-family: Lato, sans-serif;
+        color: #a6d6e0;
+        font-size: 24px; /* Приближение из-за подстановки шрифтов */
+        font-weight: 700;
+        line-height: 64px;
+    }
+
+    .header-first-option {
+        display: flex;
+        justify-content: center;
+        background-image: url("../img/pizza-dev-fon-640.png");
+        background-repeat: no-repeat;
+        /*background-position: center;*/
+        font-family: Lato, sans-serif;
+        color: #ffffff;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 44px;
+        text-align: center;
+        align-items: center;
+        width: 500px;
+        height: 150px;
+    }
+
+    .header-second-option {
+        display: flex;
+        justify-content: center;
+        background-image: url("../img/ua-ux-fon-640.png");
+        font-family: Lato, sans-serif;
+        color: #ffffff;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 44px;
+        text-align: center;
+        background-repeat: no-repeat;
+        align-items: center;
+        width: 500px;
+        height: 150px;
+
+    }
+
+    .header-third-option {
+        display: flex;
+        justify-content: center;
+        background-image: url("../img/desserts-fon-640.png");
+        font-family: Lato, sans-serif;
+        color: #ffffff;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 44px;
+        text-align: center;
+        align-items: center;
+        background-repeat: no-repeat;
+        width: 500px;
+        height: 150px;
+    }
+
+    .section-under-header-options {
+        margin-top: 50px;
+        font-family: Lato, sans-serif;
+        color: #3f4043;
+        font-size: 37px; /* Приближение из-за подстановки шрифтов */
+        font-weight: 400;
+        text-align: left;
+        text-transform: uppercase;
+    }
+
+    .sub-section-under-header-options {
+        font-family: Lato, sans-serif;
+        color: #cbcdce;
+        font-size: 20px; /* Приближение из-за подстановки шрифтов */
+        font-weight: 400;
+        text-align: left;
+    }
+
+    .left-side-menu-title {
+        margin-top: 20px;
+        margin-bottom: 35px;
+        height: 60px;
+        padding-top: 15px;
+        color: #acd9ad;
+        background-color: #3f4043;
+        font-family: Lato, sans-serif;
+        font-size: 40px; /* Приближение из-за подстановки шрифтов */
+        font-weight: 400;
+        align-items: center;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .left-side-menu-sub-title {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 40px;
+        text-transform: uppercase;
+        font-family: Lato, sans-serif;
+        color: #3f4043;
+        font-size: 30px; /* Приближение из-за подстановки шрифтов */
+        font-weight: 400;
+        text-align: left;
+    }
+
+    .dish-name {
+        font-family: Lato, sans-serif;
+        color: #3f4043;
+        font-size: 27px; /* Приближение из-за подстановки шрифтов */
+        font-weight: 400;
+        text-align: left;
+    }
+
+    .dish-price {
+        font-family: Lato, sans-serif;
+        color: #3f4043;
+        font-size: 27px; /* Приближение из-за подстановки шрифтов */
+        font-weight: 700;
+        text-align: right;
+    }
+
+    .dish-about {
+        font-family: Lato, sans-serif;
+        color: #3f4043;
+        font-size: 17.5px; /* Приближение из-за подстановки шрифтов */
+        font-weight: 400;
+        text-align: justify;
+    }
+
+    .menus {
+        margin: 0 18px;
+    }
+
+    .footer {
+        margin-top: 100px;
+        background-color: #acd9ad;
+        color: white;
+    }
+
+    .footer-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 21px;
+        height: 97px;
+    }
+
+    .right-side-menu-title {
+        padding-top: 17px;
+        text-transform: uppercase;
+        height: 65px;
+        font-family: Lato, sans-serif;
+        background-color: #acd9ad;
+        color: white;
+        font-size: 40px;
+        font-weight: 400;
+
+    }
+
+    .right-side-menu-sub-title {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 45px;
+        margin-bottom: 45px;
+        text-transform: uppercase;
+        font-family: Lato, sans-serif;
+        color: #3f4043;
+        font-size: 30px; /* Приближение из-за подстановки шрифтов */
+        font-weight: 400;
+        text-align: left;
+    }
+
+    .dish-info-line {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+}
+
 @media screen and (max-width: 320px) {
     .menus {
         margin: 12px;
@@ -489,56 +709,4 @@
         text-align: left;
         text-transform: uppercase;
     }
-
-}
-
-@media screen and (max-width: 640px) {
-    .nav {
-        display: none;
-    }
-
-    .nav-320 {
-        background-color: rgb(63, 64, 67);
-        height: 75px;
-    }
-
-    .title-nav-320 {
-        font-family: Lato, sans-serif;
-        display: flex;
-        justify-content: start;
-        color: white;
-        font-size: 24px;
-        align-items: center;
-        padding-top: 30px;
-        margin-left: 40px;
-    }
-
-    .header {
-        background-image: url("../img/header-bg-for-640.png");
-        height: 345px;
-        background-repeat: no-repeat;
-        background-position: center;
-        margin-bottom: 5px;
-    }
-
-    .header-title {
-        padding: 50px;
-        font-family: Lato, sans-serif;
-        color: #ffffff;
-        font-size: 36px; /* Приближение из-за подстановки шрифтов */
-        font-weight: 700;
-        line-height: 48px; /* Приближение из-за подстановки шрифтов */
-        text-align: left;
-    }
-
-    .header-sub-title {
-        padding-left: 20px;
-        font-family: Lato, sans-serif;
-        color: #a6d6e0;
-        font-size: 24px; /* Приближение из-за подстановки шрифтов */
-        font-weight: 700;
-        line-height: 64px;
-    }
-
-
 }
