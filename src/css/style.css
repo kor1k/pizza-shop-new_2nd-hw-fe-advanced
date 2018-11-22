@@ -1,4 +1,11 @@
+* {
+    transition: .4s;
+}
+
 @media screen and (min-width: 1200px) {
+    .logo-beer-320, .logo-wine-320, .logo-coffee-320, .logo-beer-320 {
+        display: none;
+    }
 
     .container1200 {
         width: 1200px;
@@ -63,7 +70,7 @@
     }
 
     .header-sub-title {
-        padding: 0 0 0 35px;
+        padding: 0 0 0 45px;
         font-family: Lato, sans-serif;
         color: #a6d6e0;
         font-size: 38px;
@@ -482,5 +489,56 @@
         text-align: left;
         text-transform: uppercase;
     }
+
+}
+
+@media screen and (max-width: 640px) {
+    .nav {
+        display: none;
+    }
+
+    .nav-320 {
+        background-color: rgb(63, 64, 67);
+        height: 75px;
+    }
+
+    .title-nav-320 {
+        font-family: Lato, sans-serif;
+        display: flex;
+        justify-content: start;
+        color: white;
+        font-size: 24px;
+        align-items: center;
+        padding-top: 30px;
+        margin-left: 40px;
+    }
+
+    .header {
+        background-image: url("../img/header-bg-for-640.png");
+        height: 345px;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-bottom: 5px;
+    }
+
+    .header-title {
+        padding: 50px;
+        font-family: Lato, sans-serif;
+        color: #ffffff;
+        font-size: 36px; /* Приближение из-за подстановки шрифтов */
+        font-weight: 700;
+        line-height: 48px; /* Приближение из-за подстановки шрифтов */
+        text-align: left;
+    }
+
+    .header-sub-title {
+        padding-left: 20px;
+        font-family: Lato, sans-serif;
+        color: #a6d6e0;
+        font-size: 24px; /* Приближение из-за подстановки шрифтов */
+        font-weight: 700;
+        line-height: 64px;
+    }
+
 
 }
