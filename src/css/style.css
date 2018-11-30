@@ -277,6 +277,152 @@
     }
 }
 
+@media screen and (max-width: 981px) {
+
+    .nav-320 {
+        display: none;
+    }
+
+    .nav {
+        background-color: #373c3f;
+        height: 100px;
+        display: flex;
+    }
+
+    .nav-items {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        text-align: center;
+    }
+
+    .nav-item {
+        cursor: pointer;
+        text-transform: uppercase;
+        font-family: Montserrat, sans-serif;
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 26px;
+        text-align: left;
+        margin: 10px;
+    }
+
+    .nav-item:hover {
+        color: #acd9ad;
+    }
+
+    .nav-item-logo {
+        cursor: pointer;
+        margin-top: .5rem;
+        margin-left: 21rem;
+        background-image: url("../img/navigation-logo-1200.png");
+        width: 104px;
+        height: 83px;
+    }
+
+    .header {
+        background-image: url("../img/header-fon-980.png");
+        height: 649px;
+        margin-bottom: 6px;
+    }
+
+    .header-title {
+        padding: 35px 0 50px 35px;
+        font-family: Lato, sans-serif;
+        color: #ffffff;
+        font-size: 62px;
+        font-weight: 700;
+        line-height: 64px;
+        text-align: left;
+    }
+
+    .header-sub-title {
+        padding: 0 0 0 45px;
+        font-family: Lato, sans-serif;
+        color: #a6d6e0;
+        font-size: 38px;
+        font-weight: 700;
+        line-height: 64px;
+        text-align: left;
+    }
+
+    .header-options {
+        display: flex;
+        justify-content: center;
+    }
+
+    .header-first-option {
+        display: flex;
+        justify-content: center;
+        background-image: url("../img/pizza-dev-fon-980.png");
+        background-repeat: no-repeat;
+        font-family: Lato, sans-serif;
+        color: #ffffff;
+        font-size: 43px;
+        font-weight: 700;
+        line-height: 44px;
+        text-align: center;
+        align-items: center;
+        width: 400px;
+        height: 400px;
+    }
+
+    .header-second-option {
+        display: flex;
+        justify-content: center;
+        background-image: url("../img/ua-ux-fon-980.png");
+        font-family: Lato, sans-serif;
+        color: #ffffff;
+        font-size: 43px;
+        font-weight: 700;
+        line-height: 44px;
+        background-repeat: no-repeat;
+        text-align: center;
+        align-items: center;
+        width: 400px;
+        height: 400px;
+
+    }
+
+    .header-third-option {
+        display: flex;
+        justify-content: center;
+        background-image: url("../img/desserts-fon-980.png");
+        background-repeat: no-repeat;
+        font-family: Lato, sans-serif;
+        color: #ffffff;
+        font-size: 43px;
+        font-weight: 700;
+        line-height: 44px;
+        text-align: center;
+        align-items: center;
+        width: 400px;
+        height: 400px;
+    }
+
+    .section-under-header-options {
+        font-family: Lato, sans-serif;
+        color: #3f4043;
+        font-size: 34px;
+        font-weight: 400;
+        text-align: left;
+        text-transform: uppercase;
+    }
+
+    .sub-section-under-header-options {
+        font-family: Lato, sans-serif;
+        color: #cbcdce;
+        font-size: 20px; /* Приближение из-за подстановки шрифтов */
+        font-weight: 400;
+        text-align: left;
+    }
+
+    .menus {
+        display: flex;
+        justify-content: space-between;
+    }
+}
 
 @media screen and (max-width: 640px) {
     .nav {
@@ -375,7 +521,6 @@
         width: 500px;
         height: 150px;
     }
-
 
     .under-header {
         margin: 18px;
@@ -491,6 +636,7 @@
     }
 
     .right-side-menu-sub-title {
+        align-items: center;
         display: flex;
         justify-content: space-between;
         margin-top: 45px;
@@ -498,7 +644,7 @@
         text-transform: uppercase;
         font-family: Lato, sans-serif;
         color: #3f4043;
-        font-size: 30px; /* Приближение из-за подстановки шрифтов */
+        font-size: 30px;
         font-weight: 400;
         text-align: left;
     }
@@ -515,18 +661,20 @@
 @media screen and (max-width: 320px) {
     .menus {
         margin: 12px;
+        display: flex;
+    }
+
+    .first-menu, .second-menu {
+        /*display: flex;*/
+        /*justify-content: center;*/
     }
 
     .dish-info-line {
         margin-bottom: 8px;
         display: flex;
+        margin-top: 10px;
         justify-content: space-between;
         align-items: center;
-    }
-
-    .container320 {
-        width: 320px;
-        margin: 0 auto;
     }
 
     .nav {
@@ -632,7 +780,8 @@
         height: 40px;
         color: #acd9ad;
         background-color: #3f4043;
-        font-size: 20px;
+        font-size: 15px;
+        margin-bottom: 21px;
         text-transform: uppercase;
         align-items: center;
         text-align: center;
@@ -651,7 +800,7 @@
         text-transform: uppercase;
         font-family: Lato, sans-serif;
         color: #3f4043;
-        font-size: 15.05px; /* Приближение из-за подстановки шрифтов */
+        font-size: 15px; /* Приближение из-за подстановки шрифтов */
         font-weight: 400;
         text-align: left;
     }
@@ -659,7 +808,7 @@
     .dish-name {
         font-family: Lato, sans-serif;
         color: #3f4043;
-        font-size: 13.55px; /* Приближение из-за подстановки шрифтов */
+        font-size: 11.5px; /* Приближение из-за подстановки шрифтов */
         font-weight: 400;
         text-align: left;
     }
@@ -682,12 +831,13 @@
     }
 
     .right-side-menu-title {
+        margin-top: 19px;
         font-family: Lato, sans-serif;
         height: 40px;
         color: white;
         background-color: #acd9ad;
         text-transform: uppercase;
-        font-size: 20px;
+        font-size: 15px;
         display: flex;
         justify-content: center;
         align-items: center;
